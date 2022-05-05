@@ -702,6 +702,16 @@
             "rid": "win"
           }
         }
+      },
+      "ShopOnlie.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShopOnlie.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnlie.Models.dll": {}
+        }
       }
     }
   },
@@ -2046,12 +2056,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ShopOnlie.Models/1.0.0": {
+      "type": "project",
+      "path": "../ShopOnlie.Models/ShopOnlie.Models.csproj",
+      "msbuildProject": "../ShopOnlie.Models/ShopOnlie.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
+      "ShopOnlie.Models >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.3.1"
     ]
   },
@@ -2081,7 +2097,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj": {
+              "projectPath": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
