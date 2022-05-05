@@ -390,6 +390,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "ShopOnlie.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShopOnlie.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnlie.Models.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -774,6 +784,16 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "ShopOnlie.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShopOnlie.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnlie.Models.dll": {}
         }
       }
     }
@@ -1537,12 +1557,18 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ShopOnlie.Models/1.0.0": {
+      "type": "project",
+      "path": "../ShopOnlie.Models/ShopOnlie.Models.csproj",
+      "msbuildProject": "../ShopOnlie.Models/ShopOnlie.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.4",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.4"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.4",
+      "ShopOnlie.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1571,7 +1597,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj": {
+              "projectPath": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
