@@ -821,3 +821,4 @@ C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\S
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\ShopOnlie.Models.pdb
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\gE284Jzz.gz
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\WX+HR3yb.gz
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\scopedcss\Pages\DisplayProducts.razor.rz.scp.css
