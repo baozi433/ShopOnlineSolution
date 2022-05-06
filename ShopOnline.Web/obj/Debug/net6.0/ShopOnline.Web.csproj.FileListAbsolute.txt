@@ -813,3 +813,11 @@ C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\S
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\refint\ShopOnline.Web.dll
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\ShopOnline.Web.pdb
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\ref\ShopOnline.Web.dll
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\ShopOnlie.Models.dll
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\ShopOnlie.Models.pdb
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\ShopOnlie.Models.dll.gz
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\ShopOnlie.Models.pdb.gz
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\ShopOnlie.Models.dll
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\ShopOnlie.Models.pdb
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\gE284Jzz.gz
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\WX+HR3yb.gz
