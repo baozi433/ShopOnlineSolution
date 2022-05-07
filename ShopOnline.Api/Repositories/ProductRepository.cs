@@ -22,13 +22,13 @@ namespace ShopOnline.Api.Repositories
 
         public async Task<ProductCategory> GetCategory(int id)
         {
-            var Category = await this.shopOnlineDbContext.ProductCategories.SingleOrDefaultAsync(c => c.Id == id);
+            var Category = await shopOnlineDbContext.ProductCategories.SingleOrDefaultAsync(c => c.Id == id);
             return Category;
         }
 
         public async Task<Product> GetItem(int id)
         {
-            var product = await this.shopOnlineDbContext.Products.FindAsync(id);
+            var product = await shopOnlineDbContext.Products.FindAsync(id);
             return product;
         }
 
