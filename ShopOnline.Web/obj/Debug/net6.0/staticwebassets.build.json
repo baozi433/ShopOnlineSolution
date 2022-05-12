@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6bGuY6sZmgTxiHkLxygVOOXwodpUO9h5qnVVCV3W+30=",
+  "Hash": "9K8mRIXQ1lsdYOydpPt5TIgDttuelYQLRjqKOEWZWcM=",
   "Source": "ShopOnline.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7580,6 +7580,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnline.Web\\wwwroot\\js\\ShoppingCartFunctions.js",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnline.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/ShoppingCartFunctions.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ShoppingCartFunctions.js"
     },
     {
       "Identity": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnline.Web\\wwwroot\\sample-data\\weather.json",
