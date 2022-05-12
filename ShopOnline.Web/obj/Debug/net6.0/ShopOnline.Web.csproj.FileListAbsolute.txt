@@ -823,3 +823,7 @@ C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\b
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\WX+HR3yb.gz
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\scopedcss\Pages\DisplayProducts.razor.rz.scp.css
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\scopedcss\Pages\DisplaySpinner.razor.rz.scp.css
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\d1hznNkD.gz

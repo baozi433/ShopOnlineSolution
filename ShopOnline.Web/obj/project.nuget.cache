@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vI5mQobDe2pjaivErutZBXtq9xwOWB9d7wSJkU0ZoRvSDXFHhwlkMaYu3S976yWkk3akmGHLMHdeIaJNtgZChA==",
+  "dgSpecHash": "mgfKHQb2Me8V2nE6tmqA4TQiIxpfhYSAaa3DrN0M6aMwArfwFvGAadYkdtfJ4Y/P3rTafY8bXfaW4VToJHvmFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnline.Web\\ShopOnline.Web.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.jsinterop\\6.0.4\\microsoft.jsinterop.6.0.4.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.4\\microsoft.jsinterop.webassembly.6.0.4.nupkg.sha512",
+    "C:\\Users\\yuanj\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\system.io.pipelines\\6.0.2\\system.io.pipelines.6.0.2.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
