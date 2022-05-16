@@ -10,6 +10,7 @@ namespace ShopOnline.Api.Controllers
     [ApiController]
     public class ShoppingCartController : ControllerBase
     {
+        //Dependency Injection
         private readonly IShoppingCartRepository shoppingCartRepository;
         private readonly IProductRepository productRepository;
 
