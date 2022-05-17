@@ -1,4 +1,6 @@
-﻿namespace ShopOnline.Api.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ShopOnline.Api.Entities
 {
     public class Product
     {
@@ -10,6 +12,8 @@
         public int Qty { get; set; }
         public int CategoryId { get; set; }
 
+        [ForeignKey("CategoryId")] //Attribute with parameter to let product join productCategory
+        public ProductCategory ProductCategory { get; set; }
 
     }
 }
