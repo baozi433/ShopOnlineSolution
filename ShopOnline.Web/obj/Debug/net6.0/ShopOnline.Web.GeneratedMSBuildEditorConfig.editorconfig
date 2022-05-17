@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yuanj/source/repos/ShopOnlineSolution/ShopOnline.Web/Pages/ProductsByCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNCeUNhdGVnb3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yuanj/source/repos/ShopOnlineSolution/ShopOnline.Web/Shared/CartMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnRNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,3 +81,7 @@ build_metadata.AdditionalFiles.CssScope = b-odzh4mtldn
 [C:/Users/yuanj/source/repos/ShopOnlineSolution/ShopOnline.Web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zzqun8vtrk
+
+[C:/Users/yuanj/source/repos/ShopOnlineSolution/ShopOnline.Web/Shared/ProductCategoriesNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RDYXRlZ29yaWVzTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qzyrdaa5ze

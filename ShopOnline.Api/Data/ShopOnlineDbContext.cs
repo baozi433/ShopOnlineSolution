@@ -3,17 +3,16 @@ using ShopOnline.Api.Entities;
 
 namespace ShopOnline.Api.Data
 {
-    public class ShopOnlineDbContext : DbContext
-    {
-        public ShopOnlineDbContext(DbContextOptions<ShopOnlineDbContext> options) : base(options)
-        {
+	public class ShopOnlineDbContext : DbContext
+	{
+		public ShopOnlineDbContext(DbContextOptions<ShopOnlineDbContext> options) : base(options)
+		{
 
-        }
+		}
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			base.OnModelCreating(modelBuilder);
 			//Products
 			//Beauty Category
 			modelBuilder.Entity<Product>().HasData(new Product
@@ -292,23 +291,29 @@ namespace ShopOnline.Api.Data
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 1,
-				Name = "Beauty"
+				Name = "Beauty",
+				IconCSS = "fas fa-spa"
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 2,
-				Name = "Furniture"
+				Name = "Furniture",
+				IconCSS = "fas fa-couch"
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 3,
-				Name = "Electronics"
+				Name = "Electronics",
+				IconCSS = "fas fa-headphones"
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 4,
-				Name = "Shoes"
+				Name = "Shoes",
+				IconCSS = "fas fa-shoe-prints"
 			});
+
+
 		}
 
 		public DbSet<Cart> Carts { get; set; }
@@ -317,6 +322,5 @@ namespace ShopOnline.Api.Data
 		public DbSet<ProductCategory> ProductCategories { get; set; }
 		public DbSet<User> Users { get; set; }
 
-
-    }
+	}
 }

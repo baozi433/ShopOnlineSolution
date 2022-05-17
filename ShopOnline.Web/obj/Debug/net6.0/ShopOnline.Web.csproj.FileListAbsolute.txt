@@ -828,3 +828,4 @@ C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\w
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\d1hznNkD.gz
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\scopedcss\Pages\ShoppingCart.razor.rz.scp.css
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\scopedcss\Shared\ProductCategoriesNavMenu.razor.rz.scp.css
