@@ -7,6 +7,7 @@ namespace ShopOnline.Web.Pages
 {
     public class ShoppingCartBase : ComponentBase
     {
+        [Inject]
         public IJSRuntime Js { get; set; }
 
         [Inject]
@@ -42,7 +43,7 @@ namespace ShopOnline.Web.Pages
             await Js.InvokeVoidAsync("MakeUpdateQtyButtonVisisble", id, visible);
         }
 
-        private void UpdateItemTotalPrice(CartItemDto cartItemDto)
+        private async Task UpdateItemTotalPrice(CartItemDto cartItemDto)
         {
             var item = GetCartItem(cartItemDto.Id);
 
