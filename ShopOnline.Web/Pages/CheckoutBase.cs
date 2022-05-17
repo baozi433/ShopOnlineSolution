@@ -16,7 +16,6 @@ namespace ShopOnline.Web.Pages
         protected IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
 
         protected int TotalQty { get; set; }
-
         protected string PaymentDescription { get; set; }
         protected decimal PaymentAmount { get; set; }
 
@@ -46,7 +45,7 @@ namespace ShopOnline.Web.Pages
         {
             try
             {
-                if(firstRender)
+                if (firstRender)
                 {
                     await Js.InvokeVoidAsync("initPayPalButton");
                 }

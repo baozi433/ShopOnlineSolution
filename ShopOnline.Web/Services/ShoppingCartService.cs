@@ -98,7 +98,7 @@ namespace ShopOnline.Web.Services
             }
         }
 
-        public async Task<CartItemDto> UpdateQty(CartItemQtyUpdateDto cartItemQtyUpdateDto)
+         public async Task<CartItemDto> UpdateQty(CartItemQtyUpdateDto cartItemQtyUpdateDto)
         {
             try
             {
@@ -107,7 +107,7 @@ namespace ShopOnline.Web.Services
 
                 var response = await httpClient.PatchAsync($"api/ShoppingCart/{cartItemQtyUpdateDto.CartItemId}", content);
 
-                if (response.IsSuccessStatusCode)
+                if(response.IsSuccessStatusCode)
                 {
                     return await response.Content.ReadFromJsonAsync<CartItemDto>();
                 }

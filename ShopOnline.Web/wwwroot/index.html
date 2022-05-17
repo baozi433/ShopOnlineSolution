@@ -20,8 +20,6 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script src="js/ShoppingCartFunctions.js"></script>
-    <script src="_framework/blazor.webassembly.js"></script>
     <script src="https://www.paypal.com/sdk/js?client-id=AVM36cAJX-OmvoCiWSSvI9K0kWdxXLbxDLCuA-00zUoj8yjS5pHQzY8dvpHuhj1UFbxeVW12beUsZJhd&currency=USD" data-sdk-integration-source="button-factory"></script>
     <script>
         function initPayPalButton() {
@@ -38,9 +36,7 @@
                     shape: 'rect',
                     label: 'paypal',
                     layout: 'vertical',
-
                 },
-
                 createOrder: function (data, actions) {
 
                     purchase_units[0].description = description.value;
@@ -73,6 +69,8 @@
             }).render('#paypal-button-container');
         }
     </script>
+    <script src="js/ShoppingCartFunctions.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
 </body>
 
 </html>
