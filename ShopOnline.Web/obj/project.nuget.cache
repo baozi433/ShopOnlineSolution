@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mgfKHQb2Me8V2nE6tmqA4TQiIxpfhYSAaa3DrN0M6aMwArfwFvGAadYkdtfJ4Y/P3rTafY8bXfaW4VToJHvmFA==",
+  "dgSpecHash": "w6IP2UTRHJD6mn2I5MqVm2a21QRNADFscda4tRHM7oeor8JvwEBcH3Xdrf3X3hjZSNQhQR2JlQoX6vIUuXeHFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnline.Web\\ShopOnline.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yuanj\\.nuget\\packages\\blazored.localstorage\\4.2.0\\blazored.localstorage.4.2.0.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.4\\microsoft.aspnetcore.authorization.6.0.4.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.4\\microsoft.aspnetcore.components.6.0.4.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.4\\microsoft.aspnetcore.components.analyzers.6.0.4.nupkg.sha512",
@@ -34,7 +35,7 @@
     "C:\\Users\\yuanj\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\yuanj\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.4.nupkg.sha512"
+    "C:\\Users\\yuanj\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }

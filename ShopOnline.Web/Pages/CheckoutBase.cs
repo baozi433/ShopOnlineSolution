@@ -13,17 +13,22 @@ namespace ShopOnline.Web.Pages
         [Inject]
         public IShoppingCartService ShoppingCartService { get; set; }
 
+        [Inject]
+        public IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService { get; set; }
+
         protected IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
 
         protected int TotalQty { get; set; }
         protected string PaymentDescription { get; set; }
         protected decimal PaymentAmount { get; set; }
 
+        protected string DisplayButton { get; set; } = "block";
+
         protected override async Task OnInitializedAsync()
         {
             try
             {
-                ShoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
+                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
 
                 if(ShoppingCartItems != null)
                 {
@@ -32,6 +37,10 @@ namespace ShopOnline.Web.Pages
                     PaymentAmount = ShoppingCartItems.Sum(p => p.TotalPrice);
                     TotalQty = ShoppingCartItems.Sum(p => p.Qty);
                     PaymentDescription = $"O_{HardCoded.UserId}_{orderGuid}";
+                }
+                else
+                {
+                    DisplayButton = "none";
                 }
             }
             catch (Exception)

@@ -61,3 +61,4 @@ C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Api\obj\Debug\net6.0\S
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Api\obj\Debug\net6.0\ref\ShopOnline.Api.dll
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Api\bin\Debug\net6.0\ShopOnlie.Models.dll
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Api\bin\Debug\net6.0\ShopOnlie.Models.pdb
+C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnline.Api\bin\Debug\net6.0\Blazored.LocalStorage.dll
