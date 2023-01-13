@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj",
+      "projectUniqueName": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj",
       "projectName": "ShopOnlie.Models",
-      "projectPath": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj",
+      "projectPath": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnlie.Models\\ShopOnlie.Models.csproj",
       "packagesPath": "C:\\Users\\yuanj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yuanj\\source\\repos\\ShopOnlineSolution\\ShopOnlie.Models\\obj\\",
+      "outputPath": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnlie.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yuanj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

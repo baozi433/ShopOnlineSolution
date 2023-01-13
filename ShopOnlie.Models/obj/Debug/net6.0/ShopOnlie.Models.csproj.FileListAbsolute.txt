@@ -10,3 +10,15 @@ C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\refint\ShopOnlie.Models.dll
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.pdb
 C:\Users\yuanj\source\repos\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ref\ShopOnlie.Models.dll
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\bin\Debug\net6.0\ShopOnlie.Models.deps.json
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\bin\Debug\net6.0\ShopOnlie.Models.dll
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\bin\Debug\net6.0\ShopOnlie.Models.pdb
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.csproj.AssemblyReference.cache
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.AssemblyInfoInputs.cache
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.AssemblyInfo.cs
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.csproj.CoreCompileInputs.cache
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.dll
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\refint\ShopOnlie.Models.dll
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ShopOnlie.Models.pdb
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnlie.Models\obj\Debug\net6.0\ref\ShopOnlie.Models.dll
