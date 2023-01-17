@@ -42,11 +42,25 @@ namespace ShopOnline.Api.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IconCSS = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ProductCategories", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -65,19 +79,12 @@ namespace ShopOnline.Api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Users",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Users", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Products_ProductCategories_CategoryId",
+                        column: x => x.CategoryId,
+                        principalTable: "ProductCategories",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
@@ -91,13 +98,22 @@ namespace ShopOnline.Api.Migrations
 
             migrationBuilder.InsertData(
                 table: "ProductCategories",
-                columns: new[] { "Id", "Name" },
+                columns: new[] { "Id", "IconCSS", "Name" },
                 values: new object[,]
                 {
-                    { 1, "Beauty" },
-                    { 2, "Furniture" },
-                    { 3, "Electronics" },
-                    { 4, "Shoes" }
+                    { 1, "fas fa-spa", "Beauty" },
+                    { 2, "fas fa-couch", "Furniture" },
+                    { 3, "fas fa-headphones", "Electronics" },
+                    { 4, "fas fa-shoe-prints", "Shoes" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "UserName" },
+                values: new object[,]
+                {
+                    { 1, "Bob" },
+                    { 2, "Sarah" }
                 });
 
             migrationBuilder.InsertData(
@@ -130,14 +146,10 @@ namespace ShopOnline.Api.Migrations
                     { 23, 4, "Birkenstock Sandles - available in most sizes", "/Images/Shoes/Shoes6.png", "Birkenstock Sandles", 50m, 150 }
                 });
 
-            migrationBuilder.InsertData(
-                table: "Users",
-                columns: new[] { "Id", "UserName" },
-                values: new object[,]
-                {
-                    { 1, "Bob" },
-                    { 2, "Sarah" }
-                });
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_CategoryId",
+                table: "Products",
+                column: "CategoryId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -149,13 +161,13 @@ namespace ShopOnline.Api.Migrations
                 name: "Carts");
 
             migrationBuilder.DropTable(
-                name: "ProductCategories");
-
-            migrationBuilder.DropTable(
                 name: "Products");
 
             migrationBuilder.DropTable(
                 name: "Users");
+
+            migrationBuilder.DropTable(
+                name: "ProductCategories");
         }
     }
 }

@@ -11,14 +11,14 @@ using ShopOnline.Api.Data;
 namespace ShopOnline.Api.Migrations
 {
     [DbContext(typeof(ShopOnlineDbContext))]
-    [Migration("20220517051513_AddProductCategoryIcons")]
-    partial class AddProductCategoryIcons
+    [Migration("20230117021908_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.4")
+                .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -103,6 +103,8 @@ namespace ShopOnline.Api.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
 
@@ -413,6 +415,17 @@ namespace ShopOnline.Api.Migrations
                             Id = 2,
                             UserName = "Sarah"
                         });
+                });
+
+            modelBuilder.Entity("ShopOnline.Api.Entities.Product", b =>
+                {
+                    b.HasOne("ShopOnline.Api.Entities.ProductCategory", "ProductCategory")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductCategory");
                 });
 #pragma warning restore 612, 618
         }

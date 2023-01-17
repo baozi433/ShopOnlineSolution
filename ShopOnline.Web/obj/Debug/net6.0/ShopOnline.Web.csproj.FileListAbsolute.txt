@@ -1447,7 +1447,6 @@ C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Deb
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\ShopOnline.Web.AssemblyInfo.cs
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\ShopOnline.Web.csproj.CoreCompileInputs.cache
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\ShopOnline.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\I16gDtbA.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\YBp26pgt.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\G6r7lQAu.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\QmcPoTSk.gz
@@ -1470,7 +1469,6 @@ C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Deb
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\lLJ7UAjY.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\Zx9wyWnP.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\pDkzGIGx.gz
-C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\d1hznNkD.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\IiWDe5kv.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\2w9gHP1N.gz
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\YfUd3t+s.gz
@@ -1673,3 +1671,5 @@ C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Deb
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ShopOnline.Web.props
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ShopOnline.Web.props
 C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\KK+k2+4v.gz
+C:\Users\yuanj\Documents\Projects\.NET\ShopOnlineSolution\ShopOnline.Web\obj\Debug\net6.0\build-gz\9nhCyKrz.gz

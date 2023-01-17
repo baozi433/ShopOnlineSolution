@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2AsX4fKShQuiEzZJynik1gMdQpXOZIA20L7UBTQT/4c=",
+  "Hash": "obPbZQLlCuZx6ZUvskjeZtuNVVBXLsqZhsb4fcnB/TQ=",
   "Source": "ShopOnline.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\yuanj\\.nuget\\packages\\blazored.localstorage\\4.2.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
+      "OriginalItemSpec": "C:\\Users\\yuanj\\.nuget\\packages\\blazored.localstorage\\4.3.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.13.zikbwdr63d.js",
@@ -694,7 +694,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\yuanj\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
+      "OriginalItemSpec": "C:\\Users\\yuanj\\.nuget\\packages\\newtonsoft.json\\13.0.2\\lib\\net6.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ShopOnlie.Models.dll",
@@ -4029,6 +4029,23 @@
       "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.dll"
     },
     {
+      "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\9nhCyKrz.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
+    },
+    {
       "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\AL47dxr8.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -4265,23 +4282,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Web.dll"
-    },
-    {
-      "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\d1hznNkD.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\DGTCSrLH.gz",
@@ -4981,23 +4981,6 @@
       "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Numerics.dll"
     },
     {
-      "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\I16gDtbA.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
-    },
-    {
       "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\ICPn1Rja.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -5251,6 +5234,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.dll"
+    },
+    {
+      "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\KK+k2+4v.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\yuanj\\Documents\\Projects\\.NET\\ShopOnlineSolution\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\KQbGHqDT.gz",
